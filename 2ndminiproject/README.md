@@ -6,7 +6,7 @@ After downloading the zipped file UCI_Har_Dataset.zip and extracting the include
 4. Appropriately labels the data set with descriptive variable names
 5. From the data set in step 4, create a second, independent tidy data set with the   average of each variable for each activity and each subject.
   
-The following is the step-by-step process with explanations on how I performed to clean the data until I generated the tidy data.
+The following is the step-by-step process with explanations on how I performed to clean the data until I generated the tidy data. But to better understand my code, open the file entitled run_analysis.R.
 
 After setting the directory to where the extracted files are located, I read the train and test data set into R using the read.table function.The code below shows how it was used to read the train data set into R and the same set of codes were applied to the test data set.
 
